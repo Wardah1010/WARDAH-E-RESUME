@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.header  .navbar  .logo a{
+    color: rgb(185, 132, 154);
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.header .navbar  .menu ul{
+    margin-left: 50px;
+}
+
+.header .navbar  .menu ul li{
+    display: inline-block;
+    margin-right: 45px;
+    align-items: center;
+}
+
+.header .navbar .menu ul li a{
+    color: rgb(185, 132, 154);
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.header .contact-info{
+    margin-left: 350px;
+}
+
+.header .contact-info ul{
+    margin-left: 2px;
+}
+
+.header .contact-info ul li{
+    display: inline-block;
+}
+
+.header .contact-info ul li a{
+    color: rgb(185, 132, 154);
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.header .contact-info ul li a:hover{
+    color: burlywood
+}
+
+.header .contact-info ul li a.sep{
+    margin: 0 30px;
+    opacity: 0.3;
+}
+    
+.header .banner{
+    position:absolute;
+    top: 35%;
+    left: 0;
+    color: rgb(185, 132, 154);
+}
+
+.header .banner .app-text{
+    padding-left: 440px;
+}
+
+.header .banner .app-text h1{
+    font-size: 60px;
+    position: relative;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.header .banner .app-text h1 span{
+    color: rgb burlywood;
+}
+
+.header .banner .app-text .btn-group{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.header .banner .app-text .btn-group .play-btn{
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.header .banner .app-text .btn-group span{
+    font-size: 20px;
+    margin-left: 24px;
+    color: rgb(185, 132, 154);
+    cursor: pointer;
+}
+
+header .banner .app-text .btn-group .play-btn-inner i{
+    font-size: 15px;
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    padding-left: 4px;
+    text-align: center;
+    border: 1px solid rgb(184, 86, 115);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease-out;
+}
+
+header .banner .app-text .btn-group .play-btn:hover .play-btn-inner i,
+header .banner .app-text .btn-group .play-btn:hover span{
+    color:burlywood;
+    border-color:burlywood;
+    transition: all 0.5;
+}
+
+.primary-btn:before{
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    border-top: 1px solid rgb(185, 132, 154);
+    top: 88%;
+    left: 0;
+}
+
+.header .social-icons{
+    position:absolute;
+    right: 50px;
+    bottom: 2%;
+}
+
+.header .social-icons ul  li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+.header .social-icons ul li a{
+    display: block;
+    color: rgb(185, 132, 154);
+    text-align: center;
+    padding: 12px 17px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.header .social-icons ul li a:hover{
+    background:burlywood;
+    color: rgb(185, 132, 154);
+}
+
+.header .copy-right{
+    position: absolute;
+    left: 50px;
+    bottom: 4%
+}
+
+.header .copy-right p{
+    color: rgb(185, 123, 154);
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px
+    background-color
+}
+.about img{
+    height: auto;
+    width: 450px;
+}
+.about-text{
+    width: 560px;
+}
+.main{
+    width: 1230px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: black;
+    font-size: 58px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.about-text h5{
+    color: black;
+    letter-spacing: 3px;
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color:rgb(185, 132, 154);
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+button{
+    background-color: bisque;
+    color: black;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-weight:  bold;
+    padding: 15px 30px;
+    border-radius: 35px;
+    transition: .5s;
+}
+button:hover{
+    background-color: azure;
+    border: 3px sandybrown;
+    cursor: pointer;
+}
+
+.service{
+    background: #101010;
+    width: 100px;
+    padding: 100px 0px;
+}
+.title h2{
+    color: cornflowerblue;
+    font-size: 57px;
+    width: 1150px;
+    margin: 40px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+.card{
+    height: 360px;
+    width: 346px;
+    padding: 25px 30px;
+    background: #101010;
+    border-radius: 25px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 45px;
+    display: block;
+    text-align: center;
+    margin: 26px 0px;
+    color: darksalmon;
+
+}
+h5{
+    color: #101010;
+    font-size: 25px;
+    margin-bottom: 17px;
+}
+.pra p{
+    color: #101010;
+    font-size: 10px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.card .button:hover{
+    background-color: #101010;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 8px 21px;
+    border-radius: 35px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: antiquewhite;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.contact-me{
+    width: 100%;
+    height: 270%;
+    background-color: bisque;
+    display: flex
+    flex direction column;
+    justify-content: center;
+}
+.contact-me p{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 27px;
+}
+.contact-me .button-two{
+    background-color: blanchedalmond;
+    color: black;
+    text-decoration: none;
+    border: 2x solid transparent;
+    font-weight: bold;
+    padding: 13px 31px;
+    border-radius: 35px;
+    transition: .5s;
+}
+.contact-me .button-two:hover{
+    background-color: blanchedalmond;
+    border: 25x solid;
+    cursor: pointer;
+}
